@@ -34,3 +34,23 @@ button {
 button:hover {
   background-color: #218838;
 }
+
+.letter-grid {
+	margin-left: 5px;
+  display: flex;
+  justify-content: left;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+}
+
+.letter-grid li {
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 50px;
+  text-align: left;
+}

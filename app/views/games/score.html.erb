@@ -1,6 +1,10 @@
 <h1>Résultat</h1>
 <p><%= @message %></p>
 
-<p>Score total : <%= session[:score] %></p>
+<ul class="letter-grid">
+  <% @letters.each do |letter| %>
+    <li><%= letter %></li>
+  <% end %>
+</ul>
 
 <a href="/new">Nouvelle partie</a>
